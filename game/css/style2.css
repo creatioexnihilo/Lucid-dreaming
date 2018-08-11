@@ -1,0 +1,51 @@
+
+
+		#imgcontainer{
+
+				
+				width:1000px;
+				height:600px;
+				position:relative;
+				
+				left:100px;
+		}
+
+		#img1{
+
+				
+				width:238px;
+				height:540.3px;
+				position:absolute;
+				
+
+		}
+
+		#textarea{
+
+				width:500px;
+				height:100px;
+				font-family: comic sans ms;
+				color: white;
+				float: right;
+				position:absolute;
+				left:30%;
+
+				
+
+		}
+
+
+		@font-face{
+			 font-family: authorcipherfont;
+			 src:url(../fonts/authorcipherfont.ttf);
+
+		}
+
+		#special{
+
+			
+			font-size: 30px;
+			 font-family: authorcipherfont;
+			 
+
+		}
