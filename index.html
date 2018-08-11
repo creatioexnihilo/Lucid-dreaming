@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
 
+			 <meta charset="UTF-8">
+ 			 <meta name="description" content="HTML game">
+  			 <meta name="keywords" content="Lucid dreaming,game,js,css,html,music,images">
+ 			 <meta name="author" content="creatioexnihil0">
+ 			 <!--watch me on my DeviantArt page:   https://www.deviantart.com/creatioexnihil0-->
+
+	<link rel="icon" href="game/images/icon.png">
+	<title>Lucid dreaming</title>
+
+	<style type="text/css">
+		
+		body{color:white;
+			background-color: black;
+			font-family: comic sans ms;
+
+		}
+
+		button{
+			position:relative;
+			top:11em;
+			padding-top:3em; 
+			padding-bottom:3em;
+			padding-left:5em;
+			padding-right:5em;
+			background-color:#8A2BE2;
+			color:white;
+			font-family: comic sans ms;
+			font-size: 20px;
+
+		}
+
+		button:hover{
+
+			background-color: #ff00ff;
+		}
+
+
+		h1{
+
+			text-align: center;
+
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>Can you see the Nothingness?</h1>
+
+	<p style="text-align: center;"><button id="btn"  onmouseover="yes()" onmouseout="f() "  onclick="start()">Start dreaming?</button></p>
+
+
+<script type="text/javascript">
+	
+	function yes(){
+
+		var x =document.getElementById("btn");
+		x.innerHTML="Yes";
+	}
+
+	function f(){
+		var x =document.getElementById("btn");
+		x.innerHTML="Start dreaming?";
+
+	}
+
+	function start(){
+
+		window.location="game/part1.html";
+
+	}
+</script>
+
+</body>
+</html>
