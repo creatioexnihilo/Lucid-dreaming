@@ -1,0 +1,36 @@
+body{
+				background-color: black;
+				color:white;
+				font-family: comic sans ms;
+			}
+			header {
+				text-align: center;
+			}
+			
+			#button1{color:#fff;
+				  background-color:#4a2158; 
+				  padding-left: 20px;
+				  padding-right: 20px;
+				  padding-top: 10px;
+				  padding-bottom: 10px;
+				  font-size:30px;
+			}	
+			#button2{color:#fff;
+				  background-color:#4a2158; 
+				  padding-left: 20px;
+				  padding-right: 20px;
+				  padding-top: 10px;
+				  padding-bottom: 10px;
+				  font-size:30px;
+			}	
+			.button
+			{
+				color:#fff;
+				  background-color:#4a2158; 
+				  padding-left: 20px;
+				  padding-right: 20px;
+				  padding-top: 10px;
+				  padding-bottom: 10px;
+				  font-size:30px;
+			}
+			
