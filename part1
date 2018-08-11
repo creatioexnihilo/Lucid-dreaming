@@ -1,0 +1,76 @@
+<!doctype html>
+	<html>
+		<head>
+
+			 <meta charset="UTF-8">
+ 			 <meta name="description" content="HTML game">
+  			 <meta name="keywords" content="Lucid dreaming,game,js,css,html,music,images">
+ 			 <meta name="author" content="creatioexnihil0">
+ 			 <!--watch me on my DeviantArt page:   https://www.deviantart.com/creatioexnihil0-->
+
+			<link href="css/style1.css" type="text/css" rel="stylesheet">
+			<link rel="icon" href="images/icon.png">
+			<script src="scripts/script1.js"></script>
+			
+			<title>Lucid dreaming</title>
+			
+		</head>
+
+		<body onload="openFullscreen()">
+			<header>Who am I?</header>
+			<hr>
+			<br><br>
+			
+			<div id="demo">
+			<p>*You're lost in a dream...is there any way to wake up?*</p>
+			<p>*Think...think harder...well...oh...this is a dReAM!*</p>
+			<p>*Well now I'm lucid...now what?.....Oh I know let's escape through that door*</p>
+			<p>*From here I can either go left or right...*</p>
+			<img src="images/amb.png"alt="amb.png"style="display: none;width:238px;height:540.3px;"id="img1"><!--717 1621--><!-- >358.5 810.5 --><!-- > 238px 540.3px-->
+
+			<audio autoplay loop >
+				<source src="sounds/imp.wav" >
+				<source src="sounds/imp.ogg" >
+				<source src="sounds/imp.mp3" >
+				
+
+			</audio>
+
+			<p id="aci"></p>
+			<button id="button1"type="button"onclick="right()">Right</button>&nbsp&nbsp&nbsp<button id="button2"type="button"onclick="left()">Left</button>
+
+				<form id="form"style="display: none"  method="post">
+					<input type="text"id="name"name="lol"   >
+					<button type="button"id="sub" onclick="setName()">ok</button>
+				</form>
+			
+
+				<button id="yes" style="display: none" class="button" onclick="yes()">Yes</button>&nbsp&nbsp&nbsp<button id="no" style="display: none" class="button" onclick="no()">No</button>
+
+			</div>
+
+			<script type="text/javascript"> 
+
+
+				//stops the enter key from reloading the page
+
+function stopRKey(evt) { 
+  var evt = (evt) ? evt : ((event) ? event : null); 
+  var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null); 
+  if ((evt.keyCode == 13) && (node.type=="text"))  {return false;} 
+} 
+
+document.onkeypress = stopRKey; 
+
+
+
+
+
+
+
+
+</script>
+			
+		</body>
+			
+	</html>
